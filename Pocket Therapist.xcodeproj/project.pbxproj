@@ -51,6 +51,7 @@
 		04CA887F2E275537008DB002 /* InputAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAreaView.swift; sourceTree = "<group>"; };
 		04CA88812E2755EE008DB002 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
 		04CA88832E27563B008DB002 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		04CA88882E276BC6008DB002 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +90,7 @@
 				04CA886A2E26C2B1008DB002 /* Models */,
 				043357122E266ED90007D780 /* Assets.xcassets */,
 				043357142E266ED90007D780 /* Preview Content */,
+				04CA88882E276BC6008DB002 /* Secrets.xcconfig */,
 			);
 			path = "Pocket Therapist";
 			sourceTree = "<group>";
@@ -235,6 +237,7 @@
 /* Begin XCBuildConfiguration section */
 		043357172E266ED90007D780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CA88882E276BC6008DB002 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -295,6 +298,7 @@
 		};
 		043357182E266ED90007D780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CA88882E276BC6008DB002 /* Secrets.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -349,6 +353,7 @@
 		};
 		0433571A2E266ED90007D780 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CA88882E276BC6008DB002 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +363,7 @@
 				DEVELOPMENT_TEAM = Y97NN9KJD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pocket-Therapist-Info.plist";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to hear your voice";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need this to understand your speech";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -380,6 +386,7 @@
 		};
 		0433571B2E266ED90007D780 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CA88882E276BC6008DB002 /* Secrets.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -389,6 +396,7 @@
 				DEVELOPMENT_TEAM = Y97NN9KJD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pocket-Therapist-Info.plist";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to hear your voice";
 				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need this to understand your speech";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

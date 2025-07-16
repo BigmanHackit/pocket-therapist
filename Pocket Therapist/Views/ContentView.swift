@@ -11,6 +11,7 @@ struct ContentView: View {
     @StateObject private var recognizer = SpeechRecognizer()
     @StateObject private var chatViewModel = ChatViewModel()
     
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 0) {

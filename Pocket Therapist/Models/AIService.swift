@@ -24,8 +24,8 @@ class AIService {
     static let shared = AIService()
     
     let endpoint = "https://router.huggingface.co/fireworks-ai/inference/v1/chat/completions"
-    let apiKey = "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"
-    
+    private let apiKey: String? = Bundle.main.infoDictionary?["HF_KEY"] as? String
+
     private var chatHistory: [[String : String]] = []
     
     func resetConversation() {
@@ -33,6 +33,13 @@ class AIService {
     }
     
     func sendToAI(userMessage: String, completion: @escaping (String) -> Void) {
+        
+        guard let apiKey = apiKey else {
+            completion("❌ Missing API key.")
+            return
+        }
+
+        
         let systemPrompt = """
         You are a licensed mental health therapist trained in compassionate listening and suicide prevention. Be kind, professional, and emotionally supportive. Do not repeat the same introductory phrases like “I'm sorry you're feeling this way.” Avoid redundancy and keep responses clear, short, and contextually empathetic.
         """
