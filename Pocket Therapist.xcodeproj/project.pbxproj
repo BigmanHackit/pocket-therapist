@@ -11,6 +11,22 @@
 		043357112E266ED70007D780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043357102E266ED70007D780 /* ContentView.swift */; };
 		043357132E266ED90007D780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043357122E266ED90007D780 /* Assets.xcassets */; };
 		043357162E266ED90007D780 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043357152E266ED90007D780 /* Preview Assets.xcassets */; };
+		0433571D2E266F950007D780 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433571C2E266F950007D780 /* SpeechRecognizer.swift */; };
+		0433571F2E267DF90007D780 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433571E2E267DF90007D780 /* AIService.swift */; };
+		04CA88652E26BB20008DB002 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88642E26BB20008DB002 /* WaveformView.swift */; };
+		04CA88672E26C0B5008DB002 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88662E26C0B5008DB002 /* PrimaryButtonStyle.swift */; };
+		04CA88692E26C148008DB002 /* SecondaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88682E26C148008DB002 /* SecondaryButtonStyle.swift */; };
+		04CA88702E27496E008DB002 /* ConversationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA886F2E27496E008DB002 /* ConversationMessage.swift */; };
+		04CA88722E2749BF008DB002 /* ConversationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88712E2749BF008DB002 /* ConversationStore.swift */; };
+		04CA88742E274C68008DB002 /* ConversationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88732E274C68008DB002 /* ConversationManager.swift */; };
+		04CA88762E274CD6008DB002 /* ConversationHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88752E274CD6008DB002 /* ConversationHistoryView.swift */; };
+		04CA88782E275411008DB002 /* TeamsColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88772E275411008DB002 /* TeamsColors.swift */; };
+		04CA887A2E275448008DB002 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88792E275448008DB002 /* HeaderView.swift */; };
+		04CA887C2E27548D008DB002 /* ChatMessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA887B2E27548D008DB002 /* ChatMessagesView.swift */; };
+		04CA887E2E2754CE008DB002 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA887D2E2754CE008DB002 /* MessageBubbleView.swift */; };
+		04CA88802E275537008DB002 /* InputAreaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA887F2E275537008DB002 /* InputAreaView.swift */; };
+		04CA88822E2755EE008DB002 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88812E2755EE008DB002 /* ChatViewModel.swift */; };
+		04CA88842E27563B008DB002 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88832E27563B008DB002 /* SpeechService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,22 @@
 		043357102E266ED70007D780 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		043357122E266ED90007D780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		043357152E266ED90007D780 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0433571C2E266F950007D780 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		0433571E2E267DF90007D780 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		04CA88642E26BB20008DB002 /* WaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
+		04CA88662E26C0B5008DB002 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		04CA88682E26C148008DB002 /* SecondaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonStyle.swift; sourceTree = "<group>"; };
+		04CA886F2E27496E008DB002 /* ConversationMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationMessage.swift; sourceTree = "<group>"; };
+		04CA88712E2749BF008DB002 /* ConversationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationStore.swift; sourceTree = "<group>"; };
+		04CA88732E274C68008DB002 /* ConversationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationManager.swift; sourceTree = "<group>"; };
+		04CA88752E274CD6008DB002 /* ConversationHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationHistoryView.swift; sourceTree = "<group>"; };
+		04CA88772E275411008DB002 /* TeamsColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsColors.swift; sourceTree = "<group>"; };
+		04CA88792E275448008DB002 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		04CA887B2E27548D008DB002 /* ChatMessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessagesView.swift; sourceTree = "<group>"; };
+		04CA887D2E2754CE008DB002 /* MessageBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
+		04CA887F2E275537008DB002 /* InputAreaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputAreaView.swift; sourceTree = "<group>"; };
+		04CA88812E2755EE008DB002 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		04CA88832E27563B008DB002 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +83,10 @@
 		0433570D2E266ED70007D780 /* Pocket Therapist */ = {
 			isa = PBXGroup;
 			children = (
+				04CA886C2E26C415008DB002 /* Controllers */,
 				0433570E2E266ED70007D780 /* Pocket_TherapistApp.swift */,
-				043357102E266ED70007D780 /* ContentView.swift */,
+				04CA886B2E26C2CC008DB002 /* Views */,
+				04CA886A2E26C2B1008DB002 /* Models */,
 				043357122E266ED90007D780 /* Assets.xcassets */,
 				043357142E266ED90007D780 /* Preview Content */,
 			);
@@ -65,6 +99,44 @@
 				043357152E266ED90007D780 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04CA886A2E26C2B1008DB002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0433571C2E266F950007D780 /* SpeechRecognizer.swift */,
+				0433571E2E267DF90007D780 /* AIService.swift */,
+				04CA88662E26C0B5008DB002 /* PrimaryButtonStyle.swift */,
+				04CA88682E26C148008DB002 /* SecondaryButtonStyle.swift */,
+				04CA886F2E27496E008DB002 /* ConversationMessage.swift */,
+				04CA88732E274C68008DB002 /* ConversationManager.swift */,
+				04CA88812E2755EE008DB002 /* ChatViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04CA886B2E26C2CC008DB002 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				043357102E266ED70007D780 /* ContentView.swift */,
+				04CA88642E26BB20008DB002 /* WaveformView.swift */,
+				04CA88752E274CD6008DB002 /* ConversationHistoryView.swift */,
+				04CA88792E275448008DB002 /* HeaderView.swift */,
+				04CA887B2E27548D008DB002 /* ChatMessagesView.swift */,
+				04CA887D2E2754CE008DB002 /* MessageBubbleView.swift */,
+				04CA887F2E275537008DB002 /* InputAreaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04CA886C2E26C415008DB002 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04CA88712E2749BF008DB002 /* ConversationStore.swift */,
+				04CA88772E275411008DB002 /* TeamsColors.swift */,
+				04CA88832E27563B008DB002 /* SpeechService.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +209,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04CA88782E275411008DB002 /* TeamsColors.swift in Sources */,
+				04CA88722E2749BF008DB002 /* ConversationStore.swift in Sources */,
+				04CA88802E275537008DB002 /* InputAreaView.swift in Sources */,
+				04CA88672E26C0B5008DB002 /* PrimaryButtonStyle.swift in Sources */,
 				043357112E266ED70007D780 /* ContentView.swift in Sources */,
+				04CA88842E27563B008DB002 /* SpeechService.swift in Sources */,
+				0433571F2E267DF90007D780 /* AIService.swift in Sources */,
+				04CA88822E2755EE008DB002 /* ChatViewModel.swift in Sources */,
+				04CA88762E274CD6008DB002 /* ConversationHistoryView.swift in Sources */,
+				04CA88652E26BB20008DB002 /* WaveformView.swift in Sources */,
+				04CA88702E27496E008DB002 /* ConversationMessage.swift in Sources */,
+				04CA887C2E27548D008DB002 /* ChatMessagesView.swift in Sources */,
 				0433570F2E266ED70007D780 /* Pocket_TherapistApp.swift in Sources */,
+				0433571D2E266F950007D780 /* SpeechRecognizer.swift in Sources */,
+				04CA88742E274C68008DB002 /* ConversationManager.swift in Sources */,
+				04CA88692E26C148008DB002 /* SecondaryButtonStyle.swift in Sources */,
+				04CA887A2E275448008DB002 /* HeaderView.swift in Sources */,
+				04CA887E2E2754CE008DB002 /* MessageBubbleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +358,8 @@
 				DEVELOPMENT_TEAM = Y97NN9KJD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to hear your voice";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need this to understand your speech";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +389,8 @@
 				DEVELOPMENT_TEAM = Y97NN9KJD6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need access to hear your voice";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "We need this to understand your speech";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
