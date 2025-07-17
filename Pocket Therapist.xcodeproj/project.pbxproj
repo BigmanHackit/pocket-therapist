@@ -13,6 +13,7 @@
 		043357162E266ED90007D780 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043357152E266ED90007D780 /* Preview Assets.xcassets */; };
 		0433571D2E266F950007D780 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433571C2E266F950007D780 /* SpeechRecognizer.swift */; };
 		0433571F2E267DF90007D780 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0433571E2E267DF90007D780 /* AIService.swift */; };
+		04C15F7D2E289295001BBC49 /* .gitignore  in Resources */ = {isa = PBXBuildFile; fileRef = 04C15F7C2E289295001BBC49 /* .gitignore  */; };
 		04CA88652E26BB20008DB002 /* WaveformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88642E26BB20008DB002 /* WaveformView.swift */; };
 		04CA88672E26C0B5008DB002 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88662E26C0B5008DB002 /* PrimaryButtonStyle.swift */; };
 		04CA88692E26C148008DB002 /* SecondaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA88682E26C148008DB002 /* SecondaryButtonStyle.swift */; };
@@ -37,6 +38,7 @@
 		043357152E266ED90007D780 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0433571C2E266F950007D780 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
 		0433571E2E267DF90007D780 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		04C15F7C2E289295001BBC49 /* .gitignore  */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitignore "; sourceTree = "<group>"; };
 		04CA88642E26BB20008DB002 /* WaveformView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaveformView.swift; sourceTree = "<group>"; };
 		04CA88662E26C0B5008DB002 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		04CA88682E26C148008DB002 /* SecondaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButtonStyle.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 		043357022E266ED60007D780 = {
 			isa = PBXGroup;
 			children = (
+				04C15F7C2E289295001BBC49 /* .gitignore  */,
 				0433570D2E266ED70007D780 /* Pocket Therapist */,
 				0433570C2E266ED60007D780 /* Products */,
 			);
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043357162E266ED90007D780 /* Preview Assets.xcassets in Resources */,
+				04C15F7D2E289295001BBC49 /* .gitignore  in Resources */,
 				043357132E266ED90007D780 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

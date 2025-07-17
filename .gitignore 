@@ -1,0 +1,28 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcworkspace
+*.xcuserdata/
+*.xcuserdatad/
+*.DS_Store
+
+# Swift Package Manager
+/.build/
+/Packages/
+/Package.resolved
+
+# CocoaPods
+/Pods/
+
+# Carthage
+/Carthage/
+
+# Fastlane
+/fastlane/report.xml
+/fastlane/Preview.html
+/fastlane/screenshots
+
+# API Keys & Config Files
+Secrets.xcconfig
+
